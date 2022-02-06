@@ -434,7 +434,7 @@ body{
     flex-direction: column;
 }
 /* start styling the header  */
-header{
+.header{
     padding: 2.5rem 2rem;
     position: relative;
 }
@@ -861,7 +861,7 @@ a:focus-visible{
 }
 /* for screens larger than 1200px */
 @media screen and (min-width: 1000px){
-    header{
+    .header{
         display: flex;
         align-items: center;
         justify-content: space-between;

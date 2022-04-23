@@ -425,16 +425,6 @@ body{
     min-height: 100vh;
     font-family: var(--over-font-family);
     position: relative;
-    /* overflow-x: hidden!important; */
-    
-}
-.container{
-    max-width: 90rem;
-    margin: 0 auto;
-    /* overflow-x: hidden!important;   */
-}
-main{
-    /* overflow-x: hidden !important; */
 }
 .mx-width{
     max-width: 75rem;
@@ -444,7 +434,7 @@ main{
     flex-direction: column;
 }
 /* start styling the header  */
-.header{
+header{
     padding: 2.5rem 2rem;
     position: relative;
 }
@@ -653,8 +643,6 @@ nav{
 .introduction{
     padding: 5rem 0 0 ; 
     font-family:  var(--over-font-family);
-    position: relative;
-    overflow: hidden;
 }
 .title-2{
     font-size: 2rem;
@@ -693,6 +681,7 @@ nav{
     color :var(--Very-dark-blue);
     margin-bottom: 2rem;
     font-size: 1.5rem;
+
 }
 .paragraph{
     color:var(--Very-dark-grayish-blue);
@@ -735,8 +724,6 @@ nav{
 /* start styling the tools */
 .tools{
     padding: 4rem 0;
-    position: relative;
-    overflow-x: hidden;
 }
 .fl-dir_col{
     flex-direction: column;
@@ -789,7 +776,7 @@ footer{
 .attribution { 
     font-size:0.835rem; 
     text-align: center; 
-    padding: 1rem 0;
+    padding: 1rem 1.5rem;
 }
 .attribution a { 
     color: var(--Very-light-red);
@@ -874,7 +861,7 @@ a:focus-visible{
 }
 /* for screens larger than 1200px */
 @media screen and (min-width: 1000px){
-    .header{
+    header{
         display: flex;
         align-items: center;
         justify-content: space-between;
